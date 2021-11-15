@@ -18,16 +18,15 @@ body{
     justify-content: flex-end;
     height: 600px;
     font-family: 'Kumbh Sans', sans-serif;
-    background-image: url(./images/bg-pattern-top.svg),
-    url(./images/bg-pattern-bottom.svg);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: 125% 140%, -10% -115%;
     background-color: var(--Dark-cyan);
-    /* background-position: -55% 65%, 142% -54%;
-    
-   background-repeat: no-repeat, no-repeat;*/
+   background-repeat: no-repeat, no-repeat;
 }
 
 .background_top{
     background-image: url(./images/bg-pattern-card.svg);
+
     width: 100%;
     height: 150px;
     border-radius: 20px 20px 0 0;
@@ -90,6 +89,8 @@ span{
         display: flex;
         justify-content: center;
         align-items: center;
+        background-position: 270% 170%, -159% -70%;
+
         
     }
     .container{
